@@ -2,6 +2,7 @@
 Search Engine using Trie Tree
 
 Data Structure used: Trie Tree
+
 Algorithm:
 
 	(Inserting in tree)
