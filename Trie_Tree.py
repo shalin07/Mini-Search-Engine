@@ -87,4 +87,3 @@ if __name__ == "__main__":
     print(find_prefix(root, 'ha'))
     print(find_prefix(root, 'hammer'))
     print(find_prefix(root, 'tix'))
-
