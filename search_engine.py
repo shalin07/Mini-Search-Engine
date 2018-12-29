@@ -65,7 +65,7 @@ def find_prefix(root, prefix: str) -> Tuple[bool, int]:
                 break
         # Return False when we did not find a char.
     if char_not_found:
-        print("Word Not Found")
+        print("Your search - " + Enter + " did not match any document")
     # Well, we are here means we have found the prefix. Return true to indicate that
     return True,node.OccurrenceList
 
@@ -113,6 +113,7 @@ for file in files:
                      insert(root, word.decode("utf-8"), fname)
 
 Enter=input("Search: ")
+Enter= Enter.lower()
 inp=Enter.split(' ')
 rank={}
 for word in inp:
@@ -128,4 +129,7 @@ items=[(v,k) for k,v in rank.items()]
 items.sort()
 items.reverse()
 for key in items:
-    print(key)
+      print("Search results about: " + Enter)
+        break
+for key in items:
+        print(key)
