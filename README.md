@@ -13,8 +13,8 @@ Algorithm:
 
 •	Key refers to the word that you are inserting or searching in the trie
 
-(Searching in trie)
 
+ 	(Searching in trie)
 
 •	While searching we only compare the character and move down.
 
